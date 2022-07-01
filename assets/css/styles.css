@@ -415,6 +415,16 @@ img {
   .home__img {
     width: 200px;
   }
+  .contact__container> .contacrt-s{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact__container> .contacrt-s>p{
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 576px) {
@@ -544,4 +554,19 @@ img {
 }
 .contacrt-s>p{
   width: 90%;
+}
+@media screen and (max-width: 576px){
+  .contact__container> .contacrt-s{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact__container> .contacrt-s>p{
+    text-align: center;
+  }
+  #s-img{
+    display: none;
+  }
 }
