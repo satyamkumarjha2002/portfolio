@@ -75,11 +75,11 @@ function hovered(val) {
             //window.location.href = ;
             break;
         case 3:
-            window.open("https://satyamkumarjha2002.github.io/youtube/")
+            window.open("https://github.com/satyamkumarjha2002/youtube")
             //window.location.href = "";
             break;
         case 4:
-            window.open("https://satyamkumarjha2002.github.io/weather-app-2/")
+            window.open("https://github.com/satyamkumarjha2002/weather-app-2")
             //window.location = ;
             break;
         case 5:
