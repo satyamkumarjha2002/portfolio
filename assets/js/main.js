@@ -62,21 +62,29 @@ sr.reveal('.skills__data, .work__img, .contact__input', {
 });
 
 function hovered(val) {
+    setTimeout(() => {
+        
+    
     switch (val) {
         case 1:
-            window.location.href = "https://github.com/satyamkumarjha2002/Unit-3-project";
+            window.open("https://github.com/satyamkumarjha2002/Unit-3-project");
+            //window.location.href = "https://github.com/satyamkumarjha2002/Unit-3-project";
             break;
         case 2:
-            window.location.href = "https://github.com/satyamkumarjha2002/group-project-unit2";
+            window.open("https://github.com/satyamkumarjha2002/group-project-unit2")
+            //window.location.href = ;
             break;
         case 3:
-            window.location.href = "https://satyamkumarjha2002.github.io/youtube/";
+            window.open("https://satyamkumarjha2002.github.io/youtube/")
+            //window.location.href = "";
             break;
-        case 1:
-            window.location = "https://satyamkumarjha2002.github.io/weather-app-2/";
+        case 4:
+            window.open("https://satyamkumarjha2002.github.io/weather-app-2/")
+            //window.location = ;
             break;
-        case 1:
-            window.location.href = "goolge.com";
+        case 5:
+            window.open("https://github.com/satyamkumarjha2002");
             break;
     }
+}, 1000);
 }
