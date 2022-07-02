@@ -570,3 +570,10 @@ img {
     display: none;
   }
 }
+.repo{
+  color: black;
+}
+.repo:hover{
+  color: red;
+  text-decoration: underline;
+}
