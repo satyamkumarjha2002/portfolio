@@ -88,3 +88,11 @@ function hovered(val) {
     }
 }, 1000);
 }
+
+let r = document.querySelector(":root");
+
+
+function changeColor(firstColor,secondColor){
+r.style.setProperty('--first-color', firstColor);
+r.style.setProperty('--second-color', secondColor);
+}
