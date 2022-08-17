@@ -8,8 +8,8 @@
   /*Purple 260 - Red 355 - Blue 224 - Pink 340*/
   /* HSL color mode */
   --hue-color: 224;
-  --first-color:  rgb(254, 231, 21);
-  --second-color: #101820FF;
+  --first-color:  rgba(0, 251, 222, 0.768);
+  --second-color: whiteSmoke;
   /*===== Fuente y tipografia =====*/
   --body-font: 'Poppins', sans-serif;
   --big-font-size: 2rem;
@@ -35,18 +35,17 @@
   align-items: center;
 }
 .work_card{
-padding: 20px;
-width: 90%;
+width: 70%;
 display: flex;
-border: 2px solid var(--first-color);
+background-color: var(--first-color);
+border: 1px solid greenyellow;
 }
 .work_card>div{
-  box-shadow: rgb(254, 231, 21), rgb(254, 231, 21), rgb(254, 231, 21) 0px 16px 48px;
   width: 50%;
 }
 .work_card>div>img{
-  border-radius: 10px;
-  width: 100%;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
   height: 100%;
 }
 .work_card:hover{
@@ -56,7 +55,6 @@ border: 2px solid var(--first-color);
 }
 .work_details{
   padding: 30px;
-  background-color: var(--first-color);
   color: black;
 }
 .work_details>h1{
@@ -71,8 +69,8 @@ border: 2px solid var(--first-color);
 
 }
 .buttons>button{
-  background-color: var(--second-color);
-  color: var(--first-color);
+  background-color: black;
+  color: whitesmoke;
   border-radius: 10px;
   padding: 10px;
 }
@@ -175,7 +173,7 @@ img {
   left: 0;
   z-index: var(--z-fixed);
   background-color: #fff;
-  box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
+  box-shadow: 0 1px 4px rgba(0, 128, 255, 0.15);
 }
 
 /*===== NAV =====*/
@@ -438,7 +436,8 @@ img {
 
 /* ===== FOOTER =====*/
 .footer {
-  background-color: var(--second-color);
+  border-top: 1px solid whitesmoke;
+  background-color: black;
   color: var(--first-color);
   text-align: center;
   font-weight: var(--font-semi);
@@ -699,5 +698,8 @@ img {
   border: 3px solid black;
 }
 body{
-  overflow-x: hidden;
+  background-color: black;
+}
+.l-header{
+  background-color: black;
 }

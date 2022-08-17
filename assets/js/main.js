@@ -96,3 +96,8 @@ function changeColor(firstColor,secondColor){
 r.style.setProperty('--first-color', firstColor);
 r.style.setProperty('--second-color', secondColor);
 }
+
+
+
+
+
