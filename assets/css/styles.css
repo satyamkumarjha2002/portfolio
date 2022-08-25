@@ -36,6 +36,7 @@
 }
 .work_card{
 width: 70%;
+max-height: 400px;
 display: flex;
 background-color: var(--first-color);
 border: 1px solid greenyellow;
@@ -44,6 +45,7 @@ border: 1px solid greenyellow;
   width: 50%;
 }
 .work_card>div>img{
+  width: 100%;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
   height: 100%;
@@ -652,6 +654,7 @@ img {
     align-items: center;
   }
  .work_card{
+  margin-top: 50px;
   padding: 0;
   justify-content: center;
   align-items: center;
