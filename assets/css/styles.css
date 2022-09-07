@@ -44,6 +44,8 @@ border: 1px solid greenyellow;
   width: 50%;
 }
 .work_card>div>img{
+  max-height: 400px;
+  width: 100%;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
   height: 100%;
@@ -570,6 +572,9 @@ img {
 }
 
 @media screen and (min-width: 992px) {
+  .work_card{
+    height: 100%;
+  }
   .bd-grid {
     margin-left: auto;
     margin-right: auto;
@@ -652,6 +657,7 @@ img {
     align-items: center;
   }
  .work_card{
+  margin-top: 50px;
   padding: 0;
   justify-content: center;
   align-items: center;
